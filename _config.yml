@@ -2,8 +2,8 @@ title:              Spinnenhain
 email:              megalod0n@live.de
 description:        Ein Blog mit Preisliste zu meiner Hobbyzucht
 author:             Andreas Bolder
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            "/"
+url:                "https://spinnenhain.github.io"
 
 # Social Profiles
 twitter_username:   SBootstrap
