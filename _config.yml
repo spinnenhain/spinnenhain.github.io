@@ -1,15 +1,15 @@
 title:              Spinnenhain
 email:              megalod0n@live.de
-description:        Ein Blog mit Preisliste zu meiner Hobbyzucht
+description:        Vogelspinnen, Springspinnen, Futterinsekten
 author:             Andreas Bolder
 baseurl:            "/"
 url:                "https://spinnenhain.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
+twitter_username:   spinnenhain
+github_username:    spinnenhain
 facebook_username:  StartBootstrap
-instagram_username:  
+instagram_username: spinnenhain
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
