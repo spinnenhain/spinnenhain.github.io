@@ -1,0 +1,7 @@
+## Font
+
+$font-path: "./fonts" !default;
+@font-face{
+  src: url('#{$font-path}/myfont.ttf');
+   ...
+}
