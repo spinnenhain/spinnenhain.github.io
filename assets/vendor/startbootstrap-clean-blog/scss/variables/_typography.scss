@@ -4,14 +4,14 @@
     src: url('.fonts/flesh_wound.ttf') format('truetype');
 }
 
-$font-family-medieval-headings:     'Flesh Wounds' !important;
+$font-family-medieval-headings:     Flesh Wounds 'Flesh Wounds' !important;
 
 @font-face {
     font-family: 'Seagram';
     src: url('.fonts/seagram.ttf') format('truetype');
 }
 
-$font-family-medieval:              'Seagram' !important;
+$font-family-medieval:              Seagram 'Seagram' !important;
 
 $font-family-headings:              $font-family-medieval-headings !important;
 $font-family-base:                  $font-family-medieval !important;
