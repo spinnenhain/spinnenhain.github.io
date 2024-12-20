@@ -5,8 +5,9 @@ $font-path: "./fonts" !default;
 @font-face {
     font-family: 'Flesh Wound';
     src: url('#{$font-path}/flesh_wound.ttf') format('truetype');
-
 }
+
+$font-family-medieval-headings:     'Flesh Wounds' !important;
 
 @font-face {
     font-family: 'Seagram';
@@ -14,11 +15,6 @@ $font-path: "./fonts" !default;
 }
 
 $font-family-medieval:              'Seagram' !important;
-$font-family-medieval-headings:     'Flesh Wounds' !important;
-
-$font-family-sans-serif:            -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-serif:                 Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:             Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 $font-family-headings:              $font-family-medieval-headings !important;
-$font-family-base:                  $font-family-medieval !default;
+$font-family-base:                  $font-family-medieval !important;
