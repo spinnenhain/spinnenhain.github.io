@@ -19,3 +19,9 @@ $font-family-base: "English Towne", "Lora", -apple-system, BlinkMacSystemFont, "
 $headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+#mainNav .navbar-nav>li.nav-item>a {
+    font-family: "Flesh Wound", "Open Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
