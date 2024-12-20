@@ -1,9 +1,24 @@
 // Override Bootstrap typography variables
 
-$font-family-base: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-path: "./fonts" !default;
 
-$headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@font-face {
+    font-family: 'Flesh Wound';
+    src: url('#{$font-path}/flesh_wound.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Seagram';
+    src: url('#{$font-path}/seagram.ttf') format('truetype');
+}
+
+$font-family-medieval:              'Seagram' !important;
+$font-family-medieval-headings:     'Flesh Wounds' !important;
+
+$font-family-sans-serif:            -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:                 Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:             Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+$font-family-headings:              $font-family-medieval-headings !important;
+$font-family-base:                  $font-family-medieval !default;
