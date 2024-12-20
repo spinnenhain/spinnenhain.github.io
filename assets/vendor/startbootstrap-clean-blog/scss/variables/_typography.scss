@@ -1,17 +1,14 @@
 // Override Bootstrap typography variables
 
-$font-path: "./assets/vendor/startbootstrap-clean-blog/scss/variables/fonts" !default;
-
 @font-face {
-    font-family: 'Flesh Wound';
-    src: url('#{$font-path}/flesh_wound.ttf') format('truetype');
+    src: url('.fonts/flesh_wound.ttf') format('truetype');
 }
 
 $font-family-medieval-headings:     'Flesh Wounds' !important;
 
 @font-face {
     font-family: 'Seagram';
-    src: url('#{$font-path}/seagram.ttf') format('truetype');
+    src: url('.fonts/seagram.ttf') format('truetype');
 }
 
 $font-family-medieval:              'Seagram' !important;
