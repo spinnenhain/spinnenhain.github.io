@@ -13,7 +13,11 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1 class="heading-solid-bg"><span class="text-danger">{{ page.title | slice: 0, 1 }}</span><span class="text-white">{{ page.title | slice: 1, 17 }}</span></h1>
+            {% if page.title == Mehr Informationen %}
+              <h1 class="heading-solid-bg margin-logo"><span class="text-danger">{{ page.title | slice: 0, 1 }}</span><span class="text-white">{{ page.title | slice: 1, 17 }}</span></h1>
+            {% if page.title != Mehr Informationen %}
+              <h1 class="heading-solid-bg"><span class="text-danger">{{ page.title | slice: 0, 1 }}</span><span class="text-white">{{ page.title | slice: 1, 17 }}</span></h1>
+            {% endif %}
             <h1 class="heading-top-layer"><span class="text-black">{{ page.title }}</span></h1>
             {% if page.description %}
             <span class="subheading">{{ page.description }}</span>
