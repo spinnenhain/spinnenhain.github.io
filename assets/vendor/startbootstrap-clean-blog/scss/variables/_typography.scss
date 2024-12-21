@@ -14,13 +14,9 @@
                                url('https://spinnenhain.github.io/fonts/flesh_wound.ttf') format('truetype');
 }
 
-$font-family-base: "English Towne", "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: "English Towne";
 
-$headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: "Open Sans";
 
 #mainNav .navbar-nav>li.nav-item>a {
     color: rgba(200, 200, 200, 0.9) !important;
