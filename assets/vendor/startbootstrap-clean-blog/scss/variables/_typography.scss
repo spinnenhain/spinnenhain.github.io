@@ -61,6 +61,15 @@ header.masthead .site-heading h1.heading-solid-bg {
     border: 0px !important;
 }
 
-span.subheading {
-    font-family: "Ancient";
+span.subheading-top {
+    color: rgb(10, 10, 10) !important;
+    font-family: "Dampfplatz" !important;
+    font-size: 40px !important;
+}
+
+span.subheading-bg {
+    margin-bottom: -142px;
+    color: rgb(255, 255, 255) !important;
+    font-family: "Dampfplatz Solid" !important;
+    font-size: 40px !important;
 }
