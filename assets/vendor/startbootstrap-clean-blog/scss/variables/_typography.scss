@@ -27,8 +27,8 @@ $headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
     font-size: 38px !important;
     font-weight: 300 !important;
     font-family: "Flesh Wound" !important;
-    padding: 5px 5px !important;
-    letter-spacing: 2px !important;
+    padding: 5px 15px !important;
+    letter-spacing: 1em !important;
     text-shadow: 1px 1px 4px rgba(20, 20, 20, 1), 0 0 25px rgba(20, 20, 20, 0.8), 0 0 16px rgba(20, 20, 20, 0.6);
 }
 
@@ -36,7 +36,7 @@ $headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
     text-shadow: 8px 8px 16px #000000;
 }
 
-header.masthead .site-heading h1 {
+#header.masthead .site-heading h1 {
     font-family: "Dampfplatz" !important;
     font-size: 80px;
 }
