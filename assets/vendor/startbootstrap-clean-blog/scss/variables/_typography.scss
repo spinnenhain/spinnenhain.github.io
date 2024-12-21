@@ -4,6 +4,7 @@
 @import url('https://fonts.cdnfonts.com/css/dampfplatz');
 @import url('https://fonts.cdnfonts.com/css/deutsche-zierschrift');
 @import url('https://fonts.cdnfonts.com/css/feast-of-flesh-bb-2');
+@import url('https://fonts.cdnfonts.com/css/ancient');
 
 @font-face {
     font-family: 'Flesh Wound';
@@ -58,4 +59,8 @@ header.masthead .site-heading h1.heading-solid-bg {
 #mainNav, #mainNav.is-fixed {
     top: 0px;
     border: 0px !important;
+}
+
+span.subheading {
+    font-family: "Ancient";
 }
