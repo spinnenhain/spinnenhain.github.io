@@ -37,10 +37,12 @@ $headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
 }
 
 #heading-top-layer {
+    margin-bottom: -95px;
     color: rgb(10, 10, 10) !important;
     font-family: "Dampfplatz" !important;
     font-size: 110px !important;
 }
+
 #heading-solid-bg {
     color: rgb(255, 255, 255) !important;
     font-family: "Dampfplatz Solid" !important;
