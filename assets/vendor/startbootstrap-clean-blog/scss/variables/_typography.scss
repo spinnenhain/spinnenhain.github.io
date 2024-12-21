@@ -36,12 +36,11 @@ $headings-font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
     text-shadow: 8px 8px 16px #000000;
 }
 
-header.masthead .page-heading h1, header.masthead .site-heading h1 {
+#heading-top-layer {
     color: rgb(10, 10, 10) !important;
     font-family: "Dampfplatz" !important;
     font-size: 110px !important;
 }
-
 #heading-solid-bg {
     color: rgb(255, 255, 255) !important;
     font-family: "Dampfplatz Solid" !important;
