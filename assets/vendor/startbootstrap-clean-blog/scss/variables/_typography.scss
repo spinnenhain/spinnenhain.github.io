@@ -25,10 +25,10 @@
 }
 @include media-breakpoint-up(md) {
   header.masthead .page-heading h1.heading-top-layer, header.masthead .site-heading h1.heading-top-layer {
-    font-size: 120px !important;
+    font-size: 120px;
   }
   header.masthead .page-heading h1.heading-solid-bg, header.masthead .site-heading h1.heading-solid-bg {
-    font-size: 120px !important;
+    font-size: 120px;
   }
 }
 
