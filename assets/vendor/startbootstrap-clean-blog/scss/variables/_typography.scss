@@ -66,10 +66,10 @@ p.post-meta {
 }
 
 @include media-breakpoint-down(md) {
-  span.subheading-top {
+  header.masthead .page-heading h1.heading-top-layer, header.masthead .site-heading h1.heading-top-layer {
     font-size: 20px !important;
   }
-  span.subheading-bg {
+  header.masthead .page-heading h1.heading-solid-bg, header.masthead .site-heading h1.heading-solid-bg {
     font-size: 20px !important;
   }
 }
