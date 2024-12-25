@@ -65,6 +65,15 @@ p.post-meta {
     border: 0px !important;
 }
 
+@include media-breakpoint-down(md) {
+  span.subheading-top {
+    font-size: 20px !important;
+  }
+  span.subheading-bg {
+    font-size: 20px !important;
+  }
+}
+
 span.subheading-top {
     color: rgb(10, 10, 10) !important;
     font-family: "Dampfplatz" !important;
