@@ -15,7 +15,7 @@
                                url('https://spinnenhain.github.io/fonts/flesh_wound.ttf') format('truetype');
 }
 
-$font-family-base: "English Towne";
+$font-family-base: "Open Sans";
 
 $headings-font-family: "Open Sans";
 
@@ -54,6 +54,10 @@ header.masthead .site-heading h1.heading-solid-bg {
     font-family: 'Deutsche Zierschrift';
     font-size: 80px;
     font-weight: 400;
+}
+
+p.post-meta {
+    font-family: '';
 }
 
 #mainNav, #mainNav.is-fixed {
