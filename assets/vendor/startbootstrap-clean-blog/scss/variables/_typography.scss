@@ -15,23 +15,6 @@
                                url('https://spinnenhain.github.io/fonts/flesh_wound.ttf') format('truetype');
 }
 
-@include media-breakpoint-down(md) {
-  header.masthead .page-heading h1.heading-top-layer, header.masthead .site-heading h1.heading-top-layer {
-    font-size: 70px !important;
-  }
-  header.masthead .page-heading h1.heading-solid-bg, header.masthead .site-heading h1.heading-solid-bg {
-    font-size: 70px !important;
-  }
-}
-@include media-breakpoint-up(md) {
-  header.masthead .page-heading h1.heading-top-layer, header.masthead .site-heading h1.heading-top-layer {
-    font-size: 120px;
-  }
-  header.masthead .page-heading h1.heading-solid-bg, header.masthead .site-heading h1.heading-solid-bg {
-    font-size: 120px;
-  }
-}
-
 $font-family-base: "Open Sans";
 
 $headings-font-family: "Open Sans";
