@@ -25,11 +25,8 @@ $primary-color: #ff073a;
 /* General */
 
 html {
-  /*background: $bg-color;*/
-  /*background-color: rgba(0,0,0,0,);*/
-  background-image: url("../assets/img/background.png") !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: $bg-color;
+  background-color: rgba(0,0,0,0,);
   color: $text-color;
   font-family: $font-family;
   font-size: $font-size-base;
