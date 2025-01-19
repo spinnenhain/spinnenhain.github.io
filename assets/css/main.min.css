@@ -21,6 +21,7 @@ html {
 }
 
 h1 {
+    font-family: Dampfplatz solid;
     font-size: 2rem;
     font-weight: 600;
     line-height: 2rem
@@ -48,6 +49,7 @@ a:hover {
 }
 
 #heading-front {
+    font-family: Dampfplatz;
     color: rgba(0, 0, 0, 0.8);
 }
 
