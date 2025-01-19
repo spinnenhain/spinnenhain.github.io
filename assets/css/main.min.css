@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-    background-image: url(https://spinnenhain.github.io/assets/img/background.png) no-repeat center center fixed !important;
+    background-image: url(https://spinnenhain.github.io/assets/img/background.png) !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
