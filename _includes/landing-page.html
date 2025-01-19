@@ -3,7 +3,8 @@
     <h1>Willkommen auf
       <span class="highlight-title">
         <script>
-          document.getElementByClass("highlight-title").innerHTML = window.location.href;
+          document.getElementByClass("highlight-title").innerHTML = 
+            '<span class="highlight-title">' + window.location.href + '</span>';
         </script>
       </span>
     </h1>
