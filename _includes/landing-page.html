@@ -28,22 +28,6 @@
         </a>
       {% endif %}
 
-      {% if site.steam_username != null %}
-        <a class="social-link" aria-label="My Steam" target="_blank" rel="noreferrer"
-          href="https://steamcommunity.com/id/{{site.steam_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#steam" | prepend: site.baseurl }}"></use>
-            </svg>
-          </div>
-          <span class="label">Steam</span>
-        </a>
-      {% endif %}
-
       {% if site.facebook_username != null %}
         <a class="social-link" aria-label="My Facebook" target="_blank" rel="noreferrer"
           href="https://www.facebook.com/profile.php?id={{site.facebook_username}}"
@@ -60,53 +44,101 @@
         </a>
       {% endif %}
 
-      {% if site.dev_username != null %}
-        <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
-          href="https://dev.to/{{site.dev_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
+      {% if site.instagram_username != null %}
+      <a class="social-link" aria-label="My Instagram" target="_blank" rel="noreferrer"
+        href="https://www.instagram.com/{{site.dev_username}}/"
+      >
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#instagram" | prepend: site.baseurl }}"></use>
           </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#dev" | prepend: site.baseurl }}"></use>
-            </svg>
-          </div>
-          <span class="label">DEV</span>
-        </a>
+        </div>
+        <span class="label">Instagram</span>
+      </a>
       {% endif %}
 
-      {% if site.linkedin_username != null %}
-        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
-          rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#linkedin-in" | prepend: site.baseurl }}"></use>
-            </svg>
-          </div>
-          <span class="label">LinkedIn</span>
-        </a>
-      {% endif %}
+      {% if site.telegram_username != null %}
+    <a class="social-link" aria-label="My Steam" target="_blank" rel="noreferrer"
+      href="https://t.me/{{site.telegram_username}}"
+    >
+      <svg viewBox="0 0 200 200" class="circle">
+        <circle cx="100" cy="100" r="80" />
+      </svg>
+      <div class="social">
+        <svg class="social-svg" viewBox="0 0 48 48">
+          <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#telegram" | prepend: site.baseurl }}"></use>
+        </svg>
+      </div>
+      <span class="label">Telegram</span>
+    </a>
+  {% endif %}
 
-      {% if site.twitter_username != null %}
-        <a class="social-link twitter" aria-label="My Twitter" target="_blank"
-          rel="noreferrer" href="https://twitter.com/{{site.twitter_username}}"
-        >
-          <svg viewBox="0 0 200 200" class="circle">
-            <circle cx="100" cy="100" r="80" />
-          </svg>
-          <div class="social">
-            <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#twitter" | prepend: site.baseurl }}"></use>
-            </svg>
-          </div>
-          <span class="label">Twitter</span>
-        </a>
-      {% endif %}
+  {% if site.whatsapp_username != null %}
+  <a class="social-link" aria-label="My WhatsApp" target="_blank" rel="noreferrer"
+    href="https://wa.me/{{site.whatsapp_username}}"
+  >
+    <svg viewBox="0 0 200 200" class="circle">
+      <circle cx="100" cy="100" r="80" />
+    </svg>
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#whatsapp" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+    <span class="label">WhatsApp/span>
+  </a>
+  {% endif %}
+
+  {% if site.tumblr_username != null %}
+  <a class="social-link" aria-label="My Tumblr" target="_blank" rel="noreferrer"
+    href="https://wa.me/{{site.tumblr_username}}"
+  >
+    <svg viewBox="0 0 200 200" class="circle">
+      <circle cx="100" cy="100" r="80" />
+    </svg>
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#tumblr" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+    <span class="label">Tumblr/span>
+  </a>
+  {% endif %}
+
+  {% if site.linkedin_username != null %}
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+    rel="noreferrer" href="https://www.linkedin.com/in/{{site.linkedin_username}}"
+  >
+    <svg viewBox="0 0 200 200" class="circle">
+      <circle cx="100" cy="100" r="80" />
+    </svg>
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#linkedin-in" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+    <span class="label">LinkedIn</span>
+  </a>
+{% endif %}
+
+{% if site.twitter_username != null %}
+  <a class="social-link twitter" aria-label="My Twitter" target="_blank"
+    rel="noreferrer" href="https://twitter.com/{{site.twitter_username}}"
+  >
+    <svg viewBox="0 0 200 200" class="circle">
+      <circle cx="100" cy="100" r="80" />
+    </svg>
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#twitter" | prepend: site.baseurl }}"></use>
+      </svg>
+    </div>
+    <span class="label">Twitter</span>
+  </a>
+{% endif %}
     </div>
   </div>
 </div>
