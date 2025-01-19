@@ -1,11 +1,11 @@
 html {
-  background-image: url("spinnenhain.github.io/assets/img/background.png") !important;
+  background-image: url("https://spinnenhain.github.io/assets/img/background.png") !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 div#landing {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0) !important;
 }
 .color-red {
   font-color: rgba(245, 39, 39, 0.8);
