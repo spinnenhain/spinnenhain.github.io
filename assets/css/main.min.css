@@ -187,7 +187,7 @@ a:hover {
 }
 
 .footer {
-    margin-top: -130px;
+    margin-top: -130px !important;
     background: #2b2d2f00;
     color: #fff;
     margin: .5rem;
