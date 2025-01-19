@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
-    background-image: url("https://spinnenhain.github.io/assets/img/background.png") no-repeat center center fixed !important;
+    background-image: url(https://spinnenhain.github.io/assets/img/background.png) no-repeat center center fixed !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,6 +37,18 @@ a {
 
 a:hover {
     color: #fff
+}
+
+#heading-back .color-white {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#heading-back .color-red {
+    color: rgba(250, 65, 65, 0.8);
+}
+
+#heading-front {
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .highlight-title {
