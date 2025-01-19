@@ -14,7 +14,7 @@ baseurl: ""
 username: Spinnenhain
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Hier entsteht etwas großartiges
+typing_text: Hier entsteht etwas großartiges...
 # email: Your E-Mail address for the email button.
 email: andreas@spinnenhain.de
 facebook_username: 61571193857707
