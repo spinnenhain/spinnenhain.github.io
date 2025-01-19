@@ -17,6 +17,11 @@ username: Spinnenhain
 typing_text: Hier entsteht etwas großartiges
 # email: Your E-Mail address for the email button.
 email: andreas@spinnenhain.de
+facebook_username: spinnenhain
+instagram_username: spinnenhain
+telegram_username: spinnenhain
+twitter_username: spinnenhain
+website_name: spinnenhain.de
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
@@ -24,7 +29,7 @@ steam_username: neowulf
 codepen_username: exampleUser
 dev_username: exampleUser
 linkedin_username: exampleUser
-twitter_username: spinnenhain
+
 
 # ABOUT ME SECTION
 # show_aboutme_card:
