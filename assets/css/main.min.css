@@ -8,7 +8,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: fixed;
+    background-attachment: fixed;
     color: #fff;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
