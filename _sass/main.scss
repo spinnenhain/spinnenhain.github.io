@@ -63,6 +63,13 @@ a {
   }
 }
 
+.color-red {
+  font-color: rgba(245, 39, 39, 0.8);
+}
+
+.color-white {
+  font-color: #ffffff;
+  
 .highlight-title {
   color: $primary-color;
   text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
