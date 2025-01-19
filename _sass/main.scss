@@ -14,7 +14,7 @@ $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
 $text-color: #fff !default;
-$bg-color: rgba(43, 45, 47, 0);
+$bg-color: rgba(43, 45, 47, 1);
 $card-bg-color: linear-gradient(
   145deg,
   rgba(115, 115, 115, 0.15) 15%,
@@ -25,6 +25,7 @@ $primary-color: #ff073a;
 /* General */
 
 html {
+  background: $bg-color;
   color: $text-color;
   font-family: $font-family;
   font-size: $font-size-base;
@@ -34,7 +35,7 @@ html {
 }
 
 body {
-
+  height: 100%;
 }
 
 /* Typography */
