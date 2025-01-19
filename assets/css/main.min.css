@@ -121,8 +121,8 @@ a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     left: 0;
-    margin: .5rem;
-    padding: .5rem;
+  /*margin: .5rem;
+    padding: .5rem;*/
     position: absolute;
     right: 0;
     z-index: 999
