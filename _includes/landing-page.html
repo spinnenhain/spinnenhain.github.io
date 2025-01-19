@@ -11,10 +11,7 @@
       </span>
     </h1>
     <script>
-const siteurl = document.getElementsByClassName("site-url");
-for (let i = 0; i < siteurl.length; i++) {
-  document.location.hostname;
-}
+      $( ".site-url" ).append(window.location.hostname);
 </script>
     <div class="landing-icons">
       {% if site.email != null %}
