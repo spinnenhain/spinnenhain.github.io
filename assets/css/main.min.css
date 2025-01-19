@@ -8,7 +8,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
     color: #fff;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
@@ -23,9 +22,9 @@ html {
 
 h1 {
     font-family: Dampfplatz solid;
-    font-size: 4rem;
-    font-weight: 900;
-    line-height: 4rem
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem
 }
 
 p {
@@ -211,13 +210,13 @@ a:hover {
     height: 100%;
     text-align: center
 }
-
-#landing,
+/*
+#landing 
 .landing-title {
     margin: .5rem;
     padding: .5rem
 }
-
+*/
 .landing-title {
     left: 0;
     position: absolute;
