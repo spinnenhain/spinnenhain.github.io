@@ -1,7 +1,7 @@
 <div id="landing">
   <div class="landing-title">
     <h1>Willkommen auf
-      <span class="highlight-title">test
+      <span class="site-url">test
       </span>
     </h1>
     <h1>
@@ -10,6 +10,12 @@
       >
       </span>
     </h1>
+    <script>
+const siteurl = document.getElementsByClassName("site-url");
+for (let i = 0; i < siteurl.length; i++) {
+  document.location.hostname;
+}
+</script>
     <div class="landing-icons">
       {% if site.email != null %}
         <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
