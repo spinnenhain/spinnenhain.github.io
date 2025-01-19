@@ -25,7 +25,10 @@ $primary-color: #ff073a;
 /* General */
 
 html {
-  /*background: $bg-color;*/
+  background-color: rgba(0,0,0,0,);
+  background-image: url(".assets/img/background.svg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: $text-color;
   font-family: $font-family;
   font-size: $font-size-base;
@@ -35,9 +38,7 @@ html {
 }
 
 body {
-  background-image: url(".assets/img/background.svg") !important;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 
 /* Typography */
