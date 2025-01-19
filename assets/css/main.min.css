@@ -21,9 +21,9 @@ html {
 }
 
 h1 {
-    font-family: Dampfplatz solid;
+    font-family: Dampfplatz shadow;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 900;
     line-height: 4rem
 }
 
